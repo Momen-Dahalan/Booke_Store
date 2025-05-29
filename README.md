@@ -35,9 +35,9 @@ Follow these steps to set up the project locally:
 1. **Clone the repository**
 
    ```bash
-git clone https://github.com/Momen-Dahalan/Booke_Store.git
-   cd Booke_Store
-
+    git clone https://github.com/Momen-Dahalan/Booke_Store.git
+    cd Booke_Store
+    ``` 
    
 2-Install PHP dependencies
 
@@ -69,4 +69,3 @@ php artisan serve
 👨‍💻 Author
 Momen Dahalan
 
-```
