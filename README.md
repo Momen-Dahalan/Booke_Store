@@ -38,33 +38,48 @@ Follow these steps to set up the project locally:
     git clone https://github.com/Momen-Dahalan/Booke_Store.git
     cd Booke_Store
     ``` 
+
+2. **Install PHP dependencies**
+
+   ```bash
+    composer install
+    ``` 
    
-2-Install PHP dependencies
+3. **Install frontend dependencies**
 
-composer install
+   ```bash
+    npm install && npm run dev
+    ``` 
 
-3-Install frontend dependencies
+4. **Create .env file**
 
-npm install && npm run dev
+   ```bash
+    cp .env.example .env
+    ``` 
 
-4-Create .env file
+5. **Generate application key**
 
-cp .env.example .env
+   ```bash
+    php artisan key:generate
+    ``` 
 
-5-Generate application key
+6. **Set up the database**
 
-php artisan key:generate
+   ```bash
+    Open .env and set your database credentials
+    Then run:
 
-6-Set up the database
+    php artisan migrate --seed 
+    ``` 
 
-Open .env and set your database credentials
-Then run:
+7. **Run the server**
 
-php artisan migrate --seed
+   ```bash
+    php artisan serve
 
-7-Run the server
+    ``` 
 
-php artisan serve
+
 
 👨‍💻 Author
 Momen Dahalan
